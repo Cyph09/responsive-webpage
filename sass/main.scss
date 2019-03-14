@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+@import url("https://fonts.googleapis.com/css?family=Dosis:400,700");
+@import url("https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,700");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script:400,700");
+
+@import "_variables.scss";
+@import "layout/header";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: map-get($colors, primary);
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+// Main container
+// .container {}
+
+// Main
+main {
+  width: 100%;
+  p {
+    color: lighten(map-get($colors, primary), 15%);
+  }
+}
+
+//   Main header
+
+//   Main header brand
+
+//   Main header navigation
+
+// Mobile navigation
+@import "layout/navigation";
+
+//   Homepage banner section
+@import "layout/main";
+//   Homepage about description section
+
+//   Services
+
+//   The team
+
+//   Legal tips
+
+//   Testimonials
+
+//   Main footer
+@import "layout/footer";
